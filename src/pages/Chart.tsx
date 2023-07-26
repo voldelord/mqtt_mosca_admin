@@ -1,6 +1,6 @@
 import Breadcrumb from '../components/Breadcrumb.tsx';
 import ChartFour from '../components/ChartFour';
-import ChartOne from '../components/ChartOne.tsx';
+import ChartOne from '../components/CardInfo.tsx';
 import ChartThree from '../components/ChartThree.tsx';
 import ChartTwo from '../components/ChartTwo.tsx';
 

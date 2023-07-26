@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 
-const Calendar = lazy(() => import('../pages/Calendar'));
+const Devices = lazy(() => import('../pages/Devices'));
 const Chart = lazy(() => import('../pages/Chart'));
 const FormElements = lazy(() => import('../pages/Form/FormElements'));
 const FormLayout = lazy(() => import('../pages/Form/FormLayout'));
@@ -12,9 +12,9 @@ const Buttons = lazy(() => import('../pages/UiElements/Buttons'));
 
 const coreRoutes = [
   {
-    path: '/calendar',
-    title: 'Calender',
-    component: Calendar,
+    path: '/devices',
+    title: 'Devices',
+    component: Devices,
   },
   {
     path: '/profile',
